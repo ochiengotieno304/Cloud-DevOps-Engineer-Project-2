@@ -24,5 +24,5 @@ chmod +x ./update.sh
 # Create servers
 # Change the AMI ID in the server-infra.yml
 # Check the region in the update.sh file
-./update.sh servers server-infra.yml server-params.json
+./create.sh servers server-infra.yml server-params.json
 ```
